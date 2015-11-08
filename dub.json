@@ -1,0 +1,12 @@
+{
+    "name": "xcb-util-wm-d",
+    "description": "D Bindings to libxcb-ewmh and libxcb-icccm",
+    "copyright": "Copyright © 2015, Remi Thebault",
+    "authors": ["Remi Thebault"],
+    "license": "MIT",
+    "targetType": "library",
+    "libs": ["xcb-ewmh", "xcb-icccm"],
+    "dependencies": {
+        "xcb-d": "~>1.11.1"
+    }
+}
